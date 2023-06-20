@@ -1,0 +1,21 @@
+{
+  "name": "selentic-theme",
+  "displayName": "selentic-theme",
+  "description": "A theme ported from vsstyles selentic theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Selentic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Selentic-color-theme.json"
+      }
+    ]
+  }
+}
